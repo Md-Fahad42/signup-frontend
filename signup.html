@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singnup page</title>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+
+
+<style>
+  
+ .card {
+        border: 1px solid red;
+        width: 30%;
+        padding: 20px;
+        /* margin: 200px auto; */
+        box-sizing: border-box;
+        box-shadow:3px 5px 5px 3px gray;
+        border-radius: 5px;
+        background: whitesmoke;
+      }
+
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       /*background-image: url('hh.webp');
+       background-size: cover;*/
+       background: linear-gradient(45deg, pink 50%, aqua);
+      }
+
+      .myinput, .mybtn{ 
+                width: 100%;
+               
+                margin-bottom: 15px;
+                padding: 8px;
+                border-radius: 7px ;
+                border: none;
+                box-sizing: border-box;
+
+      }
+
+      .myinput{ 
+        background-color: aliceblue;
+        border-bottom: 2px solid rgb(127, 0, 146);
+        outline: none;
+
+
+      }
+
+      .mybtn{
+        margin-top: 10px;
+        border-radius: 12px;
+        width: 60%;
+        background-color: rgb(189, 90, 90);
+        border: 2px;
+    
+        
+
+
+      }
+      #mybtn1:hover{background-color: orchid;}
+
+      .form-title{
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: roboto Slab;
+
+      }
+
+</style>
+
+
+
+</head>
+<body>
+    <div class="card">
+        <h2 class="form-title">Signup here</h2>
+    <form>
+      <label>Name</label>
+ <input type="text"  class="myinput">
+
+      <label>Email</label>
+      <input type="email" class="myinput">
+
+      <label>Password</label>
+<input type="password" class="myinput" >
+<div style="text-align: center;">
+<button class="mybtn" id="mybtn1" onclick="alert('processing')">Sign in</button></div>
+
+v
+    </form>
+    
+    
+    
+    </div>
+
+
+</body>
+</html>
